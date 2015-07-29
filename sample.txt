@@ -1,0 +1,87 @@
+Status "Public on Dec 01, 2014"
+===============================
+
+Title "Effect of donor age on the proportion of mesenchymal stem cells derived from anterior cruciate ligaments"
+================================================================================================================
+
+adress "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59662"
+===================================================================
+
+main(){ make\_folder1 download\_dataset1 } make\_folder1(){ mkdir -p
+GSE59662 output
+
+} download\_dataset1(){ wget\
+ -c\
+ -p GSE59662\
+
+ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE59nnn/GSE59662/suppl/GSE59662\_non-normalized.txt.gz
+} main
+
+Status "Public on Jun 01, 2014"
+===============================
+
+Title "Cell senescence abrogates the immunomodulatory therapeutic potential of human mesenchymal stem cells"
+============================================================================================================
+
+adress "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48662"
+===================================================================
+
+main(){ make\_folder2 download\_dataset2 } make\_folder2(){ mkdir -p
+GSE48662 output } download\_dataset2(){ wget\
+ -c\
+ -p GSE48662\
+ ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE48nnn/GSE48662/soft/ } main
+
+Status "Public on Mar 01, 2010"
+===============================
+
+Title "miR-335 orchestrates cell proliferation, migration and differentiation in human mesenchymal stem cells"
+==============================================================================================================
+
+adress "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE19232"
+===================================================================
+
+main(){ make\_folder3 download\_dataset3 } make\_folder3(){ mkdir -p
+GSE19232 output } download\_dataset3(){ wget\
+ -c\
+ -p GSE19232\
+ ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE19nnn/GSE19232/soft/ } main
+
+Status "Public on Jan 28, 2013"
+===============================
+
+Title "The differentiation stage of p53- and Rb-deficient bone marrow mesenchymal stem cells imposes the phenotype of in vivo sarcoma development"
+==================================================================================================================================================
+
+adress "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE43804"
+===================================================================
+
+main(){ make\_folder4 download\_dataset4 } make\_folder4(){ mkdir -p
+GSE43804 output } download\_dataset4(){ wget\
+ -c\
+ -p GSE43804\
+ ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE43nnn/GSE43804/soft/
+
+} main
+
+Status "Public on Jan 01, 2013"
+===============================
+
+Title "Mouse and zebrafish genes in vitro and in vivo"
+======================================================
+
+adress "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE32428"
+===================================================================
+
+pubmed ID "http://www.ncbi.nlm.nih.gov/pubmed/22297719"
+=======================================================
+
+main(){ make\_folder5 download\_data5 } make\_folder5(){ mkdir -p
+GSE32428 output } download\_data5(){ wget\
+ -c\
+ -p GSE32428\
+ ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE32nnn/GSE32428/soft/
+
+} main
+
+
